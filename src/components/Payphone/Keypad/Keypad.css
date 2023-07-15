@@ -1,0 +1,73 @@
+#keypad-container {
+  position: relative;
+}
+
+#keypad-container .keypadButton {
+  position: absolute;
+  height: 2.9vh;
+  width: 2.8vh;
+}
+
+#keypad-container .keypadButton:hover {
+  cursor: pointer;
+}
+
+#keypad-container .keypadButton.one {
+  top: 29.5vh;
+  left: 8.7vh;
+}
+
+#keypad-container .keypadButton.two {
+  top: 29.5vh;
+  right: 13.8vh;
+}
+
+#keypad-container .keypadButton.three {
+  top: 29.5vh;
+  right: 9.1vh;
+}
+
+#keypad-container .keypadButton.four {
+  top: 33.3vh;
+  left: 8.7vh;
+}
+
+#keypad-container .keypadButton.five {
+  top: 33.3vh;
+  right: 13.8vh;
+}
+
+#keypad-container .keypadButton.six {
+  top: 33.3vh;
+  right: 9.1vh;
+}
+
+#keypad-container .keypadButton.seven {
+  top: 37.1vh;
+  left: 8.7vh;
+}
+
+#keypad-container .keypadButton.eight {
+  top: 37.1vh;
+  right: 13.8vh;
+}
+
+#keypad-container .keypadButton.nine {
+  top: 37.1vh;
+  right: 9.1vh;
+}
+
+#keypad-container .keypadButton.asterisk {
+  top: 40.9vh;
+  left: 8.7vh;
+}
+
+#keypad-container .keypadButton.zero {
+  top: 40.9vh;
+  right: 13.8vh;
+}
+
+#keypad-container .keypadButton.hash {
+  top: 40.9vh;
+  right: 9.1vh;
+}

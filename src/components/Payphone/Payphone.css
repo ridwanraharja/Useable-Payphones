@@ -1,0 +1,46 @@
+#payphone-outer {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#payphone-background {
+  height: 60vh;
+  aspect-ratio: 836/1675;
+
+  background-image: url("../../assets/Payphone_ui.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  font-family: "VT323", monospace;
+}
+
+#payphone-background .payphoneFunctions {
+  position: relative;
+}
+
+#payphone-background .payphoneFunctions .keypadButton {
+  position: absolute;
+  height: 1.5vh;
+  width: 4.8vh;
+
+  opacity: 20%;
+  cursor: pointer;
+}
+
+#payphone-background .payphoneFunctions .keypadButton.answer {
+  top: 26.3vh;
+  right: 11vh;
+
+  background: green;
+}
+
+#payphone-background .payphoneFunctions .keypadButton.decline {
+  top: 26.3vh;
+  right: 5.3vh;
+
+  background: red;
+}

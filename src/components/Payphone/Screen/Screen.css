@@ -1,0 +1,19 @@
+#screen-container {
+  position: relative;
+}
+
+#screen {
+  position: absolute;
+  height: 4.2vh;
+  width: 24.8vh;
+
+  top: 21vh;
+  left: 2.7vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  font-size: 2.5vh;
+}
